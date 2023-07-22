@@ -1,0 +1,2 @@
+# this is to avoid node_modules copied during local build; 
+node_modules/

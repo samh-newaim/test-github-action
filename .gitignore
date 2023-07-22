@@ -36,6 +36,7 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+build/
 
 # Dependency directories
 node_modules/
@@ -102,3 +103,18 @@ dist
 
 # TernJS port file
 .tern-port
+
+# firebase files
+**/.firebase
+**/.firebaserc
+**/.runtimeconfig.json
+
+# keep the root package-lock so that tools are consistent
+!/package-lock.json
+**/ui-debug.log
+**/database-debug.log
+**/firebase-debug.log
+**/pubsub-debug.log
+**/tsconfig-compile.json
+**/.DS_Store
+
